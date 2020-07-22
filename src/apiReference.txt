@@ -1,0 +1,74 @@
+const date = '2020-07-14';
+    const country = 'india';
+    //axios.get('https://covid19-api.org/api/status', {params : {country : 'IN',date : '2020-04-05'}})
+    //axios.get(`https://covid19-api.org/api/status/IN?date=${date}`)
+
+    //axios.get(`https://api.covid19api.com/live/country/${country}/status/confirmed`)
+
+
+
+
+    https://api.covid19api.com/premium/country/south-africa
+
+
+
+//summary
+axios.get('https://api.covid19api.com/summary')
+
+
+//site
+https://documenter.getpostman.com/view/4876530/SzRxUpPv?version=latest#5dd3e035-d160-400d-8d12-ee8a91428eae
+
+
+
+//https://covid-19-data.p.rapidapi.com/help/countries");
+
+
+
+
+//charts
+    https://ourworldindata.org/grapher/total-deaths-covid-19?tab=table&time=..2020-06-22
+    https://ourworldindata.org/how-to-embed-charts
+
+
+
+
+
+
+
+     <iframe  title="d" width="600" height="500" src="https://public.domo.com/embed/pages/bWZPo?transparentBackground=true" />
+
+
+
+
+      <iframe title="chart4" src="https://www.zoho.com/covid/india/" width = "400" height="400"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe width="600" height="588"  title="chart" src="https://covid19chart.org/#/?bare=1&start=%3E%3D50&domain=Intl&theme=dark&advanced=1"></iframe>
+       <iframe width="300" height="300" title="chart2" src="https://covid19chart.org/#/?start=%3E%3D50&domain=Intl&theme=dark&advanced=1"/>
+       <iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA+ESP+USA" width="400"  height= "400"  title="chart3"></iframe>
+      
+
+
+
+
+
+
+
+       <iframe width="600" height="588"  title="chart" src="https://covid19chart.org/#/?bare=1&start=%3E%3D50&domain=Intl&theme=dark&advanced=1"></iframe>
+                        <iframe width="300" height="300" title="chart2" src="https://covid19chart.org/#/?start=%3E%3D50&domain=Intl&theme=dark&advanced=1"/>
+                        <iframe src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA+ESP+USA" width="400"  height= "400"  title="chart3"></iframe>
+                       

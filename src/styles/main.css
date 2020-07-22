@@ -1,0 +1,429 @@
+html, body {
+      font-family: Ubuntu;   
+      max-width: 100% !important;
+      overflow-x: hidden !important;  
+}
+
+.foot {
+      color : rgb(240,128,128) !important;
+      text-decoration: none !important;      
+}
+
+.bar {
+      text-decoration: none !important;         
+}
+
+.demo {
+      height: 380px;
+      padding-left: 20px;
+      padding-top:20px;
+      font-weight: bold;
+      margin :  10px;
+      border-radius: 2px;
+}
+
+.Nvbar {
+            color: #333333 !important;
+      }
+
+.navbar-nav  li:hover {
+      color: rgb(230, 241, 241) !important;
+}
+
+.hereMap {
+      border: 0px;
+      width: 100%;
+      height : 570px;
+}
+
+/*.nvB, .jumbo, .line, .hereMap{
+      margin-right: -1rem ;
+}*/
+
+.line{
+      color: rgb(240,128,128);
+      background:rgb(240,128,128);      
+      margin-left: 0px;
+}
+
+.toggleIcon {
+      border : 0px;
+      padding: 0px;
+}
+
+.Icon {
+      margin-right: 25px !important;
+}
+
+
+/*footer info*/
+.footerInfo {
+      color: rgb(240,128,128);
+}
+
+
+
+.grid {
+      background: rgb(240,128,128);
+      min-height: 380px;
+      padding-left: 20px;
+      padding-top:20px;
+      font-weight: bold;
+      box-shadow: 5px 7px 20px 4px rgba(0, 0, 0, 0.4);
+      margin :  10px;
+      border-radius: 2px;
+}
+
+
+/* grid*/
+
+
+
+@media only screen and (max-width: 550px) {
+      .grid {
+            min-height: 100px;
+            margin: 10px ;
+      }
+      .mediaScr {
+            font-size: 6vw;
+            padding-left : 4.2em; 
+      }
+      .mediaScr2 {
+            font-size: 6vw;
+            padding-left : 4.6em;
+      }
+      .mainDiv {
+            padding-bottom: 1em;
+      }
+
+      .Identifier {
+            color  : rgb(56, 52, 52);
+            font-size: 7vw;
+            padding-left : 4em;     
+      }
+
+      .Identifier2 {
+            color  : rgb(56, 52, 52);
+            font-size: 7vw;
+            padding-left : 4.3em;
+      }
+
+      .Identifier3 {
+            color  : rgb(56, 52, 52);
+            font-size: 7vw;
+            padding-left : 3.5em;
+      }
+      /*.carousel-item {
+            height: 250px !important; 
+            width: 90% !important;
+            margin : 0 0 0 16px;
+      }*/
+       .img { 
+             height: 250px !important;
+       }
+
+       .connect {
+            color: rgb(240,128,128);
+            padding:  0 0 0 22vw;
+       }
+       .demo {
+             height: 70px;
+       }
+
+      .socialMedia {
+            padding: 0 0 0 12vw ;
+            font-size: 2em;
+      }
+
+      .fa {
+            padding:0 0 0 3vw ;
+      }
+
+
+      .copywrites, .privacyPolicy, .termsConditions {
+            color: rgb(240,128,128) !important;
+            font-size: 4vw;
+            list-style-type: none;
+      }
+
+      .copywrites{
+            padding: 0 0 0 1vw;
+      }
+      .termsConditions{
+            padding: 0 0 0 10vw;
+      }
+      .privacyPolicy {
+            padding:  0 0 0 14vw;
+      }
+}
+
+@media only screen and (min-width: 551px) {
+ 
+      .mediaScr {
+            font-size: 5vw;
+            padding-left: 1.6em;
+      }
+      .mediaScr2 {
+            font-size: 6vw;
+            padding-left : 2.1em;
+      }
+      .mainDiv {
+            padding-top: 1em;
+      }
+      .Identifier {
+            padding-top: 2em;
+            color  : rgb(56, 52, 52);
+            font-size: 5vw;
+            padding-left : 2.5em;
+      }
+      .Identifier2 {
+            padding-top: 2em;
+            color  : rgb(56, 52, 52);
+            font-size: 5vw;
+            padding-left : 2.5em;
+      }
+
+      .Identifier3 {
+            padding-top: 2em;
+            color  : rgb(56, 52, 52);
+            font-size: 5vw;
+            padding-left : 2.5em;
+      }
+
+     /*.carousel-item {
+            width: 100%;
+            margin: 0 0 0 10px;
+      }*/
+
+      .connect {
+            color: rgb(240,128,128);
+            padding:  0 0 0 34vw;
+       }
+       .demo {
+             height: 70px;
+       }
+
+      .socialMedia {
+            padding: 0 0 0 24.5vw ;
+            font-size: 2em;
+      }
+
+      .fa {
+            
+            padding:0 0 0 3vw ;
+      }
+
+      .copywrites, .privacyPolicy, .termsConditions {
+            font-size: 2.5vw;
+            list-style-type: none;
+      }
+
+      .copywrites{
+            padding: 0 0 0 20vw;
+      }
+      .termsConditions{
+            padding: 0 0 0 25vw;
+      }
+      .privacyPolicy {
+            padding:  0 0 0 28vw;
+      }
+
+}
+
+
+@media only screen and (min-width: 990px) {
+      .mediaScr {
+            font-size: 1.4em;
+            padding-left: 1.1em;
+      }
+      .mediaScr2 {
+            font-size: 1.4em;
+            padding-left : 2.5em;
+      }
+      .mainDiv {
+            padding-top: 0.2em;
+            padding-left: 1em;
+      }
+      .Identifier {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 2.3em;
+      }
+      .Identifier2 {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 2.3em;
+      }
+
+      .Identifier3 {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 3em;
+      }
+      .img {
+            width: 95%;
+            height: 700px !important;
+            margin: 0 0 0 50px !important;
+      }
+
+      
+      
+      
+}
+
+@media only screen and (min-width: 1300px) {
+      .mediaScr {
+            font-size: 2em;
+            padding-left: 1.3em;
+      }
+      .mediaScr2 {
+            font-size: 2em;
+            padding-left : 2.2em;
+      }
+      .mainDiv {
+            padding-top: 1vh;
+            padding-left: 1em;
+      }
+      .Identifier {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 2.7em;
+      }
+      .Identifier2 {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 2.7em;
+      }
+
+      .Identifier3 {
+            padding-top: 3.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2vw;
+            padding-left : 2.7em;
+      }
+      
+}
+
+
+@media only screen and (min-width: 1600px) {
+      .mediaScr {
+            font-size: 3em;
+            padding-left: 1.2em;
+      }
+      .mediaScr2 {
+            font-size: 3em;
+            padding-left : 1.7em;
+      }
+      .mainDiv {
+            padding-top: 1em;
+            padding-left: 0.7em;
+      }
+      .Identifier {
+            padding-top: 1.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2.5vw;
+            padding-left : 2.4em;
+      }
+      .Identifier2 {
+            padding-top: 1.5em;
+            color  : rgb(56, 52, 52);
+            font-size: 2.5vw;
+            padding-left : 2.4em;
+      }
+
+      .Identifier3 {
+            padding-top: 1.49em;
+            color  : rgb(56, 52, 52);
+            font-size: 2.5vw;
+            padding-left : 2.4em;
+      }
+
+      /*.carousel-item {
+            width: 100%;
+            margin: 0 0 0 10px;
+      }*/
+
+
+}
+
+@media only screen and (min-width: 650px) {
+
+      .connect {
+            color: rgb(240,128,128);
+            padding:  0 0 1vw 11vw;
+       }
+       .demo {
+             height: 140px;
+       }
+
+      .socialMedia {
+            padding: 0 0 0 2vw ;
+            font-size: 2em;
+      }
+
+      .fa {
+            padding:0 0 0 3vw ;
+      }
+
+      .copywrites, .privacyPolicy, .termsConditions {
+            font-size: 2.2vh;
+            list-style-type: none;
+      }
+
+      .copywrites{
+            padding: 0px 0 0 8.5vw;
+      }
+      .termsConditions{
+            padding: 7px 0 0 10.8vw;
+      }
+      .privacyPolicy {
+            padding:  7px 0 0 12vw;
+      }
+      
+
+}
+/*Footer*/
+
+.fa-facebook {
+      color: #3B5998;
+}
+    
+.fa-twitter {
+      color: #55ACEE;
+}
+
+.fa-instagram {
+      color: #f40083;
+}
+
+.fa-reddit {
+      color: #ff5700;
+}
+
+
+/*             <div className="container-lg my-3 ">
+                  <div id="myCarousel" className="carousel slide" data-ride="carousel"  data-interval="3700">
+                  <div class="carousel-inner ">
+                    <div class="carousel-item active fluid" >
+                      <img  src={img5} alt="First slide"  className="img-fluid img" />
+                    </div>
+                    <div className="carousel-item" >
+                      <img   src={img1} alt="Second slide" className="img-fluid img"/>
+                    </div>
+                    <div className="carousel-item" >
+                      <img    src={img2} alt="Third slide" className="img-fluid img"/>
+                    </div>
+                        <div className="carousel-item" >
+                        <img    src={img4} alt="Third slide" className="img-fluid img"/>
+                        </div>
+                        <div className="carousel-item" >
+                        <img    src={img3} alt="Third slide" className="img-fluid img"/>
+                  </div>
+                  </div>
+                </div>
+                  </div>*/
